@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: test
+
+---
+environment: test
+server:
+  port: 4000
+name: "test"
+
+---
+environment: prod
+server:
+  port: 5000
+name: "prod"
